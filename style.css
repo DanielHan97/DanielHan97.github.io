@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  background-color: #dadada;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(218, 218, 218);
+  background: rgb(218, 218, 218);
+  background: linear-gradient(
+    0deg,
+    rgba(218, 218, 218, 1) 0%,
+    rgba(209, 28, 183, 0) 0%,
+    rgba(255, 0, 230, 1) 100%
+  );
+}
+.header__inner {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Sign > a,
+.Sign {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Sign > a {
+  color: rgb(16, 128, 128);
+  transition: color 0.3s ease-in-out;
+}
+.Sign > a:hover {
+  color: rgb(37, 248, 248);
+}
+hr {
+  max-width: 1200px;
+  width: 100%;
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 40px;
+}
+h2 {
+  font-weight: 600;
+  transition: color 0.3s;
+}
+a {
+  text-decoration: none;
+}
+main {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.main__inner {
+  max-width: 1200px;
+  width: 100%;
+}
+.receipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.receip__item {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.receip__item img {
+  width: 50%;
+  border-radius: 20px;
+}
+#checkbox {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+#checkboxes {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#checkboxes li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+#checkboxes ul {
+  margin: 0;
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+}
+.directions {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.directions li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.directions ul {
+  margin: 0;
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+}
+.checkbox_item {
+  /* display: flex;
+align-items: center; */
+  width: 100%;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(218, 218, 218);
+  background: rgb(218, 218, 218);
+  background: rgb(218, 218, 218);
+  background: linear-gradient(
+    180deg,
+    rgba(218, 218, 218, 1) 0%,
+    rgba(209, 28, 183, 0) 0%,
+    rgba(255, 0, 230, 1) 100%
+  );
+  padding: 50px 0 20px 0;
+}
+.instagram {
+  width: 30px;
+}
+.instagram:hover {
+  color: white;
+}
+.devs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.devs_a {
+  color: black;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 5px 0;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.devs_a > img {
+  margin-right: 5px;
+}
+.devs_a:hover {
+  color: white;
+}
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  max-width: 350px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form > input {
+  text-align: center;
+  width: 80%;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 0 15px;
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(165, 165, 165);
+}
+form > input:focus {
+  width: 90%;
+  background-color: white;
+}
+input::placeholder {
+  color: rgb(255, 255, 255);
+}
+.Login {
+  margin-bottom: 20px;
+  color: rgba(255, 0, 230, 1);
+}
+.Login__Button {
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: 600;
+  border: none;
+  background: rgba(255, 0, 230, 0.548);
+  font-size: 18px;
+  transition: background, color 0.3s ease-in-out;
+}
+.Login__Button:hover {
+  background-color: teal;
+  color: white;
+}
+@media screen and (max-width: 1100px) {
+  .receip__item {
+    flex-direction: column;
+  }
+  .receipe img {
+    width: 95%;
+  }
+  #checkboxes {
+    margin-top: 20px;
+  }
+  .directions {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 28px;
+  }
+  .Login {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+  }
+  .Devs > h2 {
+    font-size: 20px;
+  }
+  .instagram {
+    width: 20px;
+  }
+  .instagram:hover {
+    color: white;
+  }
+
+  .devs_a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Sign > a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Sign {
+    display: none;
+  }
+}
