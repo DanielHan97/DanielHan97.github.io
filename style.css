@@ -8,7 +8,7 @@ body {
   min-height: 100vh;
   justify-content: space-between;
   font-family: "Montserrat";
-  background-color: #faf8cd;
+  background-color: #dadada;
 }
 * {
   margin: 0;
@@ -23,8 +23,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(218, 218, 218);
-  background: rgb(218, 218, 218);
+  background: rgb(250, 248, 205);
+  background: rgb(250, 248, 205);
   background: linear-gradient(
     0deg,
     rgba(218, 218, 218, 1) 0%,
